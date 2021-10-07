@@ -1,0 +1,22 @@
+.ratings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    width: 100%;
+    padding-top: 10%;
+    .rating-card {
+        width: 90%;
+        background-color: $clr-light-magenta;
+        padding: 1em 2em;
+        text-align: center;
+        font-weight: 700;
+        color: $clr-dark-magenta;
+        font-size: 0.9em;
+        border-radius: 0.5em;
+        .stars {
+            padding-bottom: 4%;
+        }
+    }
+}
