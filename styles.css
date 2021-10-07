@@ -61,6 +61,63 @@ header p {
   padding-bottom: 4%;
 }
 
+.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.reviews article {
+  background-color: #502050;
+  width: 90%;
+  border-radius: 0.5em;
+  padding: 3em 2em;
+  color: white;
+}
+
+.reviews article .name-tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 2em;
+}
+
+.reviews article .name-tag img {
+  border-radius: 50%;
+  width: 48px;
+}
+
+.reviews article .name-tag .name-text {
+  padding-left: 2em;
+  font-size: 0.8em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  line-height: 1.5em;
+}
+
+.reviews article .name-tag .name-text span {
+  color: #ee68a4;
+}
+
+.reviews article p {
+  color: #f7f2f7;
+  line-height: 1.5em;
+  font-weight: 500;
+  font-size: 13px;
+}
+
 *,
 *::after,
 *::before {

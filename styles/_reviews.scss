@@ -1,0 +1,43 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    width: 100%;
+    
+    margin-top: 2em;
+    margin-bottom: 4em;
+
+    article {
+        background-color: $clr-dark-magenta;
+        width: 90%;
+        border-radius: 0.5em;
+        padding: 3em 2em;
+        color: $clr-white;
+        .name-tag {
+            display: flex;
+
+            padding-bottom: 2em;
+            img {
+                border-radius: 50%;
+                width: 48px;
+            }
+            .name-text {
+                padding-left: 2em;
+                font-size: 0.8em;
+                align-self: center;
+                line-height: 1.5em;
+                span {
+                    color: $clr-soft-pink;
+                }
+            }
+        }
+        p {
+            color: $clr-light-magenta;
+            line-height: 1.5em;
+            font-weight: 500;
+            font-size: 13px;
+        }
+    }
+}
