@@ -166,6 +166,24 @@ header p {
   font-size: 13px;
 }
 
+@media screen and (min-width: 1440px) {
+  .reviews {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 1.9em;
+    margin-bottom: 0;
+    gap: 2em;
+  }
+  article:nth-child(2) {
+    margin-top: 2.5%;
+  }
+  article:last-child {
+    margin-top: 5%;
+  }
+}
+
 *,
 *::after,
 *::before {
