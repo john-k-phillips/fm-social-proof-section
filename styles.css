@@ -77,6 +77,38 @@ header p {
   padding-bottom: 4%;
 }
 
+@media screen and (min-width: 1440px) {
+  .ratings {
+    padding-top: 0;
+    gap: 1.5em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .ratings .rating-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    gap: 2em;
+  }
+  .ratings .rating-card .stars {
+    padding: 0;
+  }
+  .ratings .rating-card:nth-child(2) {
+    margin-left: 10%;
+  }
+  .ratings .rating-card:last-child {
+    margin-left: 20%;
+  }
+}
+
 .reviews {
   display: -webkit-box;
   display: -ms-flexbox;

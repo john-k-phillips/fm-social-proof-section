@@ -20,3 +20,27 @@
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .ratings {
+        padding-top: 0;
+        gap: 1.5em;
+        justify-content: center;
+        align-items: flex-start;
+        .rating-card {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            gap: 2em;
+            .stars {
+                padding: 0;
+            }
+        }
+        .rating-card:nth-child(2) {
+            margin-left: 10%;
+        }
+        .rating-card:last-child {
+            margin-left: 20%;
+        }
+    }
+}
