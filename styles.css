@@ -1,4 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+header h1 {
+  color: #502050;
+  font-weight: 700;
+  font-size: 1.7em;
+  width: 70%;
+}
+
+header p {
+  margin-top: 5%;
+  color: #937b92;
+  font-weight: 500;
+}
+
 *,
 *::after,
 *::before {
@@ -10,6 +39,7 @@
 
 body {
   background: url(images/bg-pattern-top-mobile.svg) no-repeat top left, url(images/bg-pattern-bottom-mobile.svg) no-repeat bottom right;
+  font-family: "Spartan", sans-serif;
 }
 
 @media screen and (min-width: 768px) {
