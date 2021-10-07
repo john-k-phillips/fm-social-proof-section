@@ -132,11 +132,23 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
   body {
     background: url(images/bg-pattern-top-desktop.svg) no-repeat, url(images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
     min-height: 100vh;
     font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 5em;
+  }
+  header {
+    width: 50%;
+  }
+  .ratings {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
