@@ -29,7 +29,7 @@ Your users should be able to:
 ![](./design/mobile-design.jpg)
 
 <!-- REPLACE LIST ITEMS -->
-<h2>Satisfication</h2>
+<h2>Satisfaction</h2>
 <h3>The Good</h3>
   <ul>
     <li>White spacing between elements.</li>
@@ -55,7 +55,7 @@ Your users should be able to:
     Creating the background images for both mobile and desktop is I usually skip due to lack of knowledge.
     I recently picked up on a few tips and tricks and decided to give it a shot, I was happy with the results.
   </p>
-<h3>Continuted Development</h3>
+<h3>Continued Development</h3>
   <p>
     I am satisfied with the finish project and wouldn't continue development.
   </p>
